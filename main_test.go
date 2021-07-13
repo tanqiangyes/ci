@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+  "testing"
+)
 
 func TestMain(t *testing.T) {
-  fmt.PrintLn("fmt")
+  fmt.Println("fmt")
 }
